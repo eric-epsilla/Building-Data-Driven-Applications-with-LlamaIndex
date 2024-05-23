@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "building-data-driven-applications-with-llamaindex"
+version = "0.1.0"
+description = ""
+authors = ["eric-epsilla <eric@epsilla.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
