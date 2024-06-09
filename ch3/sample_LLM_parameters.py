@@ -1,3 +1,6 @@
+import os
+os.environ["OPENAI_API_KEY"] = "sk-***"
+
 from llama_index.llms.openai import OpenAI
 llm = OpenAI(
     model="gpt-3.5-turbo-1106",
