@@ -1,4 +1,7 @@
+import os
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+
+os.environ["OPENAI_API_KEY"] = "sk-****"
 
 documents = SimpleDirectoryReader('files').load_data()
 index = VectorStoreIndex.from_documents(documents)
